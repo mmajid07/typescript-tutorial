@@ -1,0 +1,12 @@
+"use strict";
+var str1 = "Majid";
+var str2 = "Majid";
+var str3 = `Majid`;
+var num = 30;
+// var convertedString: string = num.toString();
+var convertedString = "" + num + `My Lucky Number is ${num}`;
+console.log(convertedString);
+var male = true;
+var boolConverted = " " + male;
+var boolConverted1 = male.toString();
+console.log(boolConverted, boolConverted1);
